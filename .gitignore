@@ -1,7 +1,9 @@
 # ide related
 .vs/*
+.vscode/*
 .idea/*
 # build
+build/*
 .build/*
 x64/*
 cmake-build-debug/*
