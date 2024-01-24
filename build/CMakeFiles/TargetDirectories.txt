@@ -1,3 +1,0 @@
-C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build/CMakeFiles/YOLOv8CPP.dir
-C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build/CMakeFiles/ZERO_CHECK.dir
