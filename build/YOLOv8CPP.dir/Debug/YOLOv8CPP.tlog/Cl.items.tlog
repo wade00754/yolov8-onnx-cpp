@@ -1,0 +1,6 @@
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\main.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\main.obj
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\nn\autobackend.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\autobackend.obj
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\nn\onnx_model_base.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\onnx_model_base.obj
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\utils\augment.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\augment.obj
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\utils\common.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\common.obj
+C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\src\utils\ops.cpp;C:\Users\Kirschblute\Desktop\PG\yolov8-onnx-cpp\build\YOLOv8CPP.dir\Debug\ops.obj

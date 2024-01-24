@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\main.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\main.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/main.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\nn\\autobackend.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\nn\\autobackend.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/nn/autobackend.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/nn/autobackend.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\nn\\onnx_model_base.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\nn\\onnx_model_base.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/nn/onnx_model_base.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/nn/onnx_model_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\utils\\augment.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\utils\\augment.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/utils/augment.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/utils/augment.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\utils\\common.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\utils\\common.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/utils/common.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/utils/common.cpp.obj"
+},
+{
+  "directory": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/YOLOv8CPP.dir/includes_CXX.rsp -g -o CMakeFiles\\YOLOv8CPP.dir\\src\\utils\\ops.cpp.obj -c C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\src\\utils\\ops.cpp",
+  "file": "C:/Users/Kirschblute/Desktop/PG/yolov8-onnx-cpp/src/utils/ops.cpp",
+  "output": "CMakeFiles/YOLOv8CPP.dir/src/utils/ops.cpp.obj"
+}
+]
