@@ -1,4 +1,8 @@
 ﻿# yolov8-onnx-cpp
+Please select Visual Studio amd64 kit to make it work.
+
+Lines change in src/main.cpp : `300, 305`
+Lines change in CMakeLists.txt : `4, 5, 7, 8, 10`
 
 ## Description
 Hello there! yolov8-onnx-cpp is a C++ demo implementation of the YOLOv8 model using the ONNX library.
