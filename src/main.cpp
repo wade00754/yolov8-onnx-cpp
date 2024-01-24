@@ -297,12 +297,12 @@ void plot_results(cv::Mat img, std::vector<YoloResults>& results,
 }
 
 int main() {
-    std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
+    std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\images\\000000000143.jpg";
     // const std::img_path& modelPath = "./checkpoints/yolov8n.onnx"; // detection
     //  vs:
     //     const std::string& modelPath = "./checkpoints/yolov8n-seg.onnx"; // instance segmentation
     //  clion:
-    const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
+    const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp\\checkpoints\\yolov8n-seg.onnx";  // pose
 
     fs::path imageFilePath(img_path);
     fs::path newFilePath = imageFilePath.stem();
