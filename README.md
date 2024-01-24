@@ -1,8 +1,22 @@
 ﻿# yolov8-onnx-cpp
 Please select Visual Studio amd64 kit to make it work.
 
-Lines change in src/main.cpp : `300, 305`
-Lines change in CMakeLists.txt : `4, 5, 7, 8, 10`
+Lines change in `src/main.cpp` :
+```cpp
+    std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
+    const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
+```
+
+Lines change in `CMakeLists.txt` :
+```cmake
+SET (OpenCV_DIR C:/opencv/build/x64/vc16/lib)  # opencv lib root
+SET (OpenCV_BIN_DIR C:/opencv/build/x64/vc16/bin)  #opencv bin root
+
+SET (OpenCV_DEBUG_DLL_FILENAME opencv_world490d.dll)  # change filenames
+SET (OpenCV_RELEASE_DLL_FILENAME opencv_world490.dll)  # change filenames
+
+SET (ONNXRUNTIME_DIR C:/onnxruntime-win-x64-gpu-1.16.3)  # onnxruntime root
+```
 
 ## Description
 Hello there! yolov8-onnx-cpp is a C++ demo implementation of the YOLOv8 model using the ONNX library.
