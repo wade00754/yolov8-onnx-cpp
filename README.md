@@ -3,8 +3,8 @@ Please select Visual Studio amd64 kit to make it work.
 
 Lines change in `src/main.cpp` :
 ```cpp
-    std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
-    const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
+std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
+const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
 ```
 
 Lines change in `CMakeLists.txt` :
