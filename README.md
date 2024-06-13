@@ -1,9 +1,9 @@
 ﻿# yolov8-onnx-cpp
 ## Environment Configurations
-Lines change in line `300` & `305` in `src/main.cpp` :
+Change line `300` & `305` in `src/main.cpp` :
 ```cpp
-std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
-const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
+std::string img_path = "{Absolute_Path_to_./images/000000000143.jpg}";
+const std::string& modelPath = "{Absolute_Path_to_./checkpoints/yolov8n-seg.onnx}";  // pose
 ```
 
 ### VScode Settings
@@ -22,7 +22,7 @@ SET (OpenCV_RELEASE_DLL_FILENAME opencv_world490.dll)  # change filenames
 
 SET (ONNXRUNTIME_DIR C:/onnxruntime-win-x64-gpu-1.16.3)  # onnxruntime root
 ```
-Finally, `Ctrl+Shift+P: CMake: Configure`.
+Finally, `Ctrl+Shift+P: [CMake: Configure]`.
 
 #### `.vscode/c_cpp_properties.json`
 ```json
