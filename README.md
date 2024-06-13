@@ -1,11 +1,15 @@
 ﻿# yolov8-onnx-cpp
-Please select Visual Studio amd64 kit to make it work.
 
-Lines change in `src/main.cpp` :
+Lines change in line `300` & `305` in `src/main.cpp` :
 ```cpp
 std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
 const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\checkpoints\\yolov8n-seg.onnx";  // pose
 ```
+
+### VScode Settings
+#### CMake
+Please select Visual Studio amd64 kit to make it work.
+`Ctrl+Shift+P: CMake: Select a kit -> Visual Studio Community 2022 Release - amd64`
 
 Lines change in `CMakeLists.txt` :
 ```cmake
@@ -16,6 +20,30 @@ SET (OpenCV_DEBUG_DLL_FILENAME opencv_world490d.dll)  # change filenames
 SET (OpenCV_RELEASE_DLL_FILENAME opencv_world490.dll)  # change filenames
 
 SET (ONNXRUNTIME_DIR C:/onnxruntime-win-x64-gpu-1.16.3)  # onnxruntime root
+```
+Finally, `Ctrl+Shift+P: CMake: Configure`.
+
+`c_cpp_properties.json` :
+```json
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/opencv/build/include",
+                "C:/onnxruntime-win-x64-gpu-1.16.3/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0"
+        }
+    ],
+    "version": 4
+}
 ```
 
 ## Description
