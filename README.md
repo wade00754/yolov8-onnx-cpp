@@ -1,5 +1,5 @@
 ﻿# yolov8-onnx-cpp
-
+## Environment Configurations
 Lines change in line `300` & `305` in `src/main.cpp` :
 ```cpp
 std::string img_path = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx-cpp-main\\images\\000000000143.jpg";
@@ -9,7 +9,8 @@ const std::string& modelPath = "C:\\Users\\Kirschblute\\Desktop\\PG\\yolov8-onnx
 ### VScode Settings
 #### CMake
 Please select Visual Studio amd64 kit to make it work.
-`Ctrl+Shift+P: CMake: Select a kit -> Visual Studio Community 2022 Release - amd64`
+
+`Ctrl+Shift+P: [CMake: Select a kit] -> [Visual Studio Community 2022 Release - amd64]`
 
 Lines change in `CMakeLists.txt` :
 ```cmake
@@ -23,7 +24,7 @@ SET (ONNXRUNTIME_DIR C:/onnxruntime-win-x64-gpu-1.16.3)  # onnxruntime root
 ```
 Finally, `Ctrl+Shift+P: CMake: Configure`.
 
-`c_cpp_properties.json` :
+#### `.vscode/c_cpp_properties.json`
 ```json
 {
     "configurations": [
@@ -70,7 +71,7 @@ When you do export in python in onnx format, the following code executes
         self.metadata['kpt_shape'] = model.model[-1].kpt_shape
 ```
 
-(ultralytics 8.0.160, ultralytics/engine/exporter.py lines 221-233))
+(ultralytics 8.0.160, ultralytics/engine/exporter.py lines 221-233)
 
 We can use this parameters at least to define stride, task, names and image size as described in the schema below:
 
